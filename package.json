@@ -1,0 +1,20 @@
+{
+  "name": "polyframe",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "frog dev",
+    "build": "frog vercel-build",
+    "start": "frog start"
+  },
+  "dependencies": {
+    "frog": "latest",
+    "hono": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.2",
+    "@vitejs/plugin-react": "^4.2.1"
+  }
+}
